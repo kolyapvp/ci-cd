@@ -58,7 +58,6 @@ jobs:
           tags: ghcr.io/solidshake/ci-cd-example/demo-app:${{ github.sha }}
 
   deploy:
-    needs: [build]
     runs-on: ubuntu-latest
     environment: prod
     steps:
