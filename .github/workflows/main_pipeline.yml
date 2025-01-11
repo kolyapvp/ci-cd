@@ -88,4 +88,4 @@ jobs:
             ./infrastructure/kubernetes/demo-app-deployment.yml
             ./infrastructure/kubernetes/demo-app-service.yml
             ./infrastructure/kubernetes/demo-app-ingress.yml
-          images: ghcr.io/solidshake/ci-cd-example/demo-app:${{ github.sha }}
+          images: ghcr.io/kolyapvp/ci-cd/demo-app:${{ github.sha }}
